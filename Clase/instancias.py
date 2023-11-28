@@ -2,6 +2,7 @@ from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
 from Circulo import Circulo
 from Triangulo import Triangulo
+from Hexagono import Hexagono
 #Insatancias de la clase Cuadrado
 c1 = Cuadrado(8)
 
@@ -30,9 +31,11 @@ t1 = Triangulo(6,6,6)
 
 print(f"El area del triangulo es: {t1.area()} \nEl perimetro del triangulo es: {t1.perimetro()}")
 
+#Instancias Hexagono
 
+h1 = Hexagono(8,8,8,8,8,8,10)
 
-
+print(f"El area del hexagono es: {h1.area()} \nEl perimetro del hexagono es: {h1.perimetro()}")
 
 
 
