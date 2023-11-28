@@ -1,6 +1,7 @@
 from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
 from Circulo import Circulo
+from Triangulo import Triangulo
 #Insatancias de la clase Cuadrado
 c1 = Cuadrado(8)
 
@@ -22,3 +23,17 @@ ci1 = Circulo(9)
 
 print(f"El area del circulo es: {ci1.area()}")
 print(f"El perimetro del circulo es: {ci1.perimetro()}")
+
+#Instancias Triangulo
+
+t1 = Triangulo(6,6,6)
+
+print(f"El area del triangulo es: {t1.area()} \nEl perimetro del triangulo es: {t1.perimetro()}")
+
+
+
+
+
+
+
+
