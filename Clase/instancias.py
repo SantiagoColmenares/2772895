@@ -33,7 +33,7 @@ print(f"El area del triangulo es: {t1.area()} \nEl perimetro del triangulo es: {
 
 #Instancias Hexagono
 
-h1 = Hexagono(8,8,8,8,8,8,10)
+h1 = Hexagono(8,10)
 
 print(f"El area del hexagono es: {h1.area()} \nEl perimetro del hexagono es: {h1.perimetro()}")
 

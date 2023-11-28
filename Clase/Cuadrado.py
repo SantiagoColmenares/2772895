@@ -1,4 +1,6 @@
-class Cuadrado:
+from Base import Base #Importacion de la clase Abstracta
+
+class Cuadrado(Base):
 
 	def __init__(self, _lado):
 		self._lado = _lado

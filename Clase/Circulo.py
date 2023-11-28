@@ -1,4 +1,6 @@
-class Circulo:
+from Base import Base #Importacion de la clase Abstracta ;)
+
+class Circulo(Base):
 	_pi = 3.1416
 	def __init__(self,radio):
 		self.radio = radio
